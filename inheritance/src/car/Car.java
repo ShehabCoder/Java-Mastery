@@ -53,7 +53,7 @@ public class Car extends Vehicle {
     public String  toString(){
         
         return "Vehicle Object:"+Vehicle.class+"\nType: "+super.VehicleType+"\nLimit: "+super.SpeedLimit+ "\nNumber of Doors:" +numberOfDoors+
-               "\nColor :"+Color +"\nModel :" + Model +"\nPrice :$"+ Price+"\n Made in :$"+ super.Getmanufature()  ;
+               "\nColor :"+Color +"\nModel :" + Model +"\nPrice :$"+ Price+"\n Made in :"+ super.Getmanufature()  ;
 
             }
 }
