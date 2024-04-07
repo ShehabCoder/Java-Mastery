@@ -1,0 +1,9 @@
+#Notes To avoid in Overloading and overriding
+
+#1 . Avoid using Final and Static keywords.
+#2 . Avoid Changing the acces modifiers.
+#3 . Don’t overload operators like +, - , * / etc., unless necessary
+#4 . If you are going to override a method from super class then make sure that your code is not dependent on the specific behavior of this method
+(and even then it is not always recommended).
+#5 . Avoid Changing parameters of methods in overriding this will lead to overridding instead.
+
