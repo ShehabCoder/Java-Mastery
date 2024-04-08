@@ -16,7 +16,6 @@ public class Vehicle {
             this.SpeedLimit=limit; 
         }
         
-        
     // Getter Method
     public String Getmanufature(){
         return this.manufature;
